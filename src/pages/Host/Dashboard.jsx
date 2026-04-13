@@ -1,10 +1,9 @@
-import Header from "./Header";
 import { Outlet } from "react-router-dom";
 
-export default function Layout() {
+export default function Dashboard() {
   return (
     <>
-      <Header />
+      <h1>Dashboard goes here</h1>
       <Outlet />
     </>
   );
